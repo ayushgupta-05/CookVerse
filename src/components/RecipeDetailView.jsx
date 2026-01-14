@@ -59,10 +59,11 @@ const RecipeDetailView = () => {
               </h1>
 
               <img
-                src={meal.strMealThumb}
-                alt=""
-                className="w-[400px] h-[400px] rounded-xl shadow-2xl shadow-black/50 object-cover border-4 border-gray-800 ring-2 ring-blue-500/50 mx-5"
-              />
+  src={meal.strMealThumb}
+  alt={meal.strMeal}
+  className="w-full max-w-sm mx-auto rounded-xl shadow-lg"
+/>
+
             </div>
 
             <div className="lg:w-1/2 bg-gray-800 rounded-xl shadow-inner shadow-black/30 border border-gray-700 pb-3">
